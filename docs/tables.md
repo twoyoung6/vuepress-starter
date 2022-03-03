@@ -1,4 +1,14 @@
-# tables.md
+---
+title: tables
+date: 2022-03-03 16:22:57
+permalink: /pages/a73f14/
+categories:
+  - home
+tags:
+  -
+---
+
+# tables
 
 | Tables        |      Are      |  Cool |
 | ------------- | :-----------: | ----: |

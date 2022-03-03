@@ -3,7 +3,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }]
   ],
-  base: "/blog/",
+  base: "/",
   extraWatchFiles: [
     './config.js',
   ],
@@ -17,6 +17,7 @@ module.exports = {
     title: 'VuePress Blog',
     logo: '/assets/img/logo.png',
     searchMaxSuggestions: 6,
+    // sidebarDepth: 2,
     smoothScroll: true,
     // 导航栏
     nav: [
@@ -29,9 +30,12 @@ module.exports = {
       '/': [
         '',
         'about',
-        'guide',
         'newborn',
         'tables',
+      ],
+      '/guide/': [
+        '',
+        'one/'
       ]
     },
     displayAllHeaders: true, // 默认值：false
